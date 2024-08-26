@@ -12,6 +12,7 @@ models:
 
       - name: time
         description: The time associated with the manufacturing process.
+
         # Uncomment if you want to apply a timestamp test (requires custom test implementation)
         # tests:
         #   - timestamp
@@ -21,6 +22,7 @@ models:
       #   tests:
       #     - is_int:
       #         column_name: status
+
 
       # - name: id
       #   description: The unique identifier for the manufacturing process.
